@@ -10,7 +10,7 @@ function Modal1Add() {
   return (
     <>
       <button
-        className="w-28 text-white  bg-indigo-700 hover:bg-indigo-800 active:bg-indigo-900 font-medium rounded-lg text-sm py-2 mt-2 ml-5"
+        className=" text-pink-600 border-[1px] border-pink-600 hover:bg-pink-600 hover:text-white px-3 py-1 rounded-[3px]"
         onClick={handleShow}
       >
         Add

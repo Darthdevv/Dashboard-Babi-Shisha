@@ -60,30 +60,7 @@ function Sidebar() {
               <span>Delivery</span>
             </li>
           </Link>
-          <p className="title">USEFUL</p>
-
-          <li>
-            <QueryStatsIcon className="icon" />
-            <span>Stats</span>
-          </li>
-          <li>
-            <NotificationsIcon className="icon" />
-            <span>Notifications</span>
-          </li>
-          <li>
-            <HealthAndSafetyIcon className="icon" />
-            <span>System Health</span>
-          </li>
-          <p className="title">SERVICES</p>
-
-          <li>
-            <PsychologyIcon className="icon" />
-            <span>Logs</span>
-          </li>
-          <li>
-            <SettingsIcon className="icon" />
-            <span>Settings</span>
-          </li>
+        
           <p className="title">USER</p>
 
           <li>

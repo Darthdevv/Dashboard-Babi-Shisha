@@ -55,11 +55,11 @@ function New({ inputs, title, setDark, dark }) {
               </div>
               <div className="formInput">
                 <label>Password</label>
-                <input type="password" placeholder="" />
+                <input type="password" placeholder="Enter your password" />
               </div>
               <div className="formInput">
                 <label> Address</label>
-                <input type="text" placeholder="" />
+                <input type="text" placeholder="Cairo, Egypt" />
               </div>
               <div className="formInput">
                 <label>Country</label>

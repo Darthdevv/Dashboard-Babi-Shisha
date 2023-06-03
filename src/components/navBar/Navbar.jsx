@@ -40,21 +40,12 @@ function Navbar({ setDark, dark }) {
             </button>
           </div>
           <div className="item">
-            <FullscreenExitOutlinedIcon className="icon" />
-          </div>
-          <div className="item">
             <NotificationsOutlinedIcon className="icon" />
             <div className="counter">1</div>
           </div>
           <div className="item">
             <ChatBubbleOutlineOutlinedIcon className="icon" />
             <div className="counter">2</div>
-          </div>
-          <div className="item">
-            <NotificationsOutlinedIcon className="icon" />
-          </div>
-          <div className="item">
-            <FormatListBulletedOutlinedIcon className="icon" />
           </div>
           <div className="item">
             <img className="avatar" src={me} />
