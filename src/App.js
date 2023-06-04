@@ -20,6 +20,7 @@ import "./style/dark.scss";
 import { useState } from "react";
 import EditList from "./pages/list/EditList";
 import AddList from "./pages/list/AddList";
+import ListAdd from "./pages/list/ListAdd";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -66,7 +67,7 @@ function App() {
           />
           <Route
             path="/products/add"
-            element={<AddList setDark={setDark} dark={dark} />}
+            element={<ListAdd setDark={setDark} dark={dark} />}
           />
           <Route index element={<List setDark={setDark} dark={dark} />} />
           <Route

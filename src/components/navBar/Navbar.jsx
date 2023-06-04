@@ -48,7 +48,7 @@ function Navbar({ setDark, dark }) {
             <div className="counter">2</div>
           </div>
           <div className="item">
-            <img className="avatar" src={me} />
+            <img className="avatar" src={me} alt="profilepic" />
           </div>
         </div>
       </div>

@@ -2,16 +2,9 @@ import React from "react";
 import "./sideBar.scss";
 //importing material ui icons
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import PersonIcon from "@mui/icons-material/Person";
 import ConfirmationNumberIcon from "@mui/icons-material/ConfirmationNumber";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
-import CreditCardIcon from "@mui/icons-material/CreditCard";
 import InventoryIcon from "@mui/icons-material/Inventory";
-import QueryStatsIcon from "@mui/icons-material/QueryStats";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
-import PsychologyIcon from "@mui/icons-material/Psychology";
-import SettingsIcon from "@mui/icons-material/Settings";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import LogoutIcon from "@mui/icons-material/Logout";
 import CategoryIcon from "@mui/icons-material/Category";
@@ -76,10 +69,6 @@ function Sidebar() {
             </Link>
           </li>
         </ul>
-      </div>
-      <div className="bottom">
-        <div className="colorOption"></div>
-        <div className="colorOption"></div>
       </div>
     </div>
   );
